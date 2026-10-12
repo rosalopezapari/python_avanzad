@@ -29,5 +29,24 @@ def sumar (a:int,b:int):
     print(sumar(45,5))
 
 
- ```
 
+ ```
+ # funciones avanzadas 
+ **Argumento**
+ es el datos
+ **nota**
+  en ambos casos tenemos posicionales/nominales
+  ```python 
+  # parametros 
+  def suma(a,b):#en este caso tenemos una funcion suma que recibe dos parametros a,b 
+  suma (34,45)
+  # ene ste caso estpy llamndo a la funcion pasandple como argimentos los datos .
+  #  en este caso caso en concreto podemos decir que estamos frente a una funciopn que tiene parametros posicionales , eso significa que cada valor remplaza en el orden  que le pasemos a lñas variables, 34->an , 45->b
+
+  def login(usuario="",password=""):
+    return "acceso correcto"
+    login(password=12345678",usuario="tupapo")
+
+# esta fincion e as una fincion nominalporque  para pasar los valores tengo que indicar la variable 
+
+  ```
