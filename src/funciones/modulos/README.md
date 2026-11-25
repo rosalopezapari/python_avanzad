@@ -26,3 +26,24 @@ import matematicaas
 ## para hacetr uso de las funciones tengo que acceder al archivo luego un punto y el nhombre del dato, funcion que der 
 matematicas.re4sta(5,8)
 ```
+## 3.importar solo lo necesario (from ... import )
+aveces es necesario  importar  solo una partes especificadas de un modulo. para esto usamos ´from nombre_modulo import parte_especifica´
+
+´matematicas.py´
+
+```python 
+def resta (a,b):
+    returna-*b
+    def suma(a,b)
+    return a+b
+    PI=3.1415
+
+```
+´main.py´
+```python 
+from matematicas import PI
+
+```
+
+## PANQUETES (Carpetas de modulos)
+cuando el proyecto empieza a crecer los modulos de ordenan en carpeta  
